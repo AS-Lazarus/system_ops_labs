@@ -2,7 +2,7 @@
 A repository for SQL-based diagnostics and application support utilities.
 
 ### 🎯 Purpose
-This lab contains the MySQL queries I use to investigate production failures and transaction-level errors. Coming from an Electrical Engineering background, I use these scripts as a "digital probe" to identify system bottlenecks and data inconsistencies.ture.
+This lab contains the MySQL queries I use to investigate production failures and transaction-level errors. Coming from an Electrical Engineering background, I use these scripts as a diagnostic probe, ensuring rapid resolution of customer-reported issues and maintaining high system integrity.
 
 ### 🔍 SQL Toolkit (`/sql`)
 *   **`transaction_investigation.sql`**: Queries to filter failed payments by error code and timestamp.
@@ -14,5 +14,3 @@ This lab contains the MySQL queries I use to investigate production failures and
 *   **Domain:** Tier 2 Application Support & Site Reliability.
 *   **Core Skills:** Data filtering, Aggregations (`GROUP BY`), and Root Cause Analysis (RCA) for incident reporting.
 
-## 🎯 Reliability Goal
-To leverage SQL as a diagnostic probe, ensuring rapid resolution of customer-reported issues and maintaining high system integrity.
