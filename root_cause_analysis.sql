@@ -1,6 +1,6 @@
 -- Purpose: Aggregate data to identify recurring system blocks and provider issues.
 
--- Identify the most frequent error messages 
+-- Identify the most frequent error messages
 SELECT 
     error_code, 
     status_message, 
